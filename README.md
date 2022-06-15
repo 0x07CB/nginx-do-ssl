@@ -45,8 +45,7 @@ mongodb-ssl-setup: [jamesloper.com](https://jamesloper.com/mongodb-ssl-setup)
     
     - DISABLE && ENABLE UFW && VERIFY UFW STATUS
     ```
-    sudo ufw disable
-    sudo ufw enable 
+    sudo ufw reload
     sudo ufw status
     ```
     Additional status infos:
