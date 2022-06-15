@@ -19,7 +19,7 @@ mongodb-ssl-setup: [jamesloper.com](https://jamesloper.com/mongodb-ssl-setup)
 
     (IN ALL CASE INSTALL THAT)
     ```
-    sudo apt update && sudo apt install -y software-properties-common python-certbot-nginx && sudo apt install -y nginx
+    sudo apt update && sudo apt install -y software-properties-common python3-certbot-nginx && sudo apt install -y nginx
     ```
 2.  upgrade and reboot
     **NOTE: SAVE ALL WORK OPEN BECAUSE YOU NEED TO REBOOT**
