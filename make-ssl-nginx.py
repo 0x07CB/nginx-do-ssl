@@ -31,7 +31,7 @@ server {
         listen 80;
         listen [::]:80;
 
-        root /var/www/"""+domain_name+""""/html;
+        root /var/www/"""+domain_name+"""/html;
         index index.html index.htm index.nginx-debian.html;
 
         server_name """+domain_name+""" www."""+domain_name+""";
